@@ -11,9 +11,6 @@
 6. Stop the Program
 
 ## PROGRAM
-NAME: NIRMAL.N
-REG.NO:212223240107
-
 ### Server
 ``
 import socket
@@ -34,9 +31,10 @@ while True:
  if ack:
  print(ack)
   i+=s
-``
-## Client
 ```
+```
+## Client
+
 import socket
 s=socket.socket()
 s.connect(('localhost',8000))
